@@ -1,0 +1,141 @@
+.Section1 {
+     height: 500px; background: #f6f6f6;
+}
+
+.myname{
+    position: absolute;
+    color: #000;
+    font-family: Montserrat Medium;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 25px;
+    top: 25%;
+    float: left;
+}
+
+.name{
+    position: absolute;
+    color: #000;
+    font-family: Montserrat Medium;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 25px;
+    top: 32%;
+}
+
+.wrapper {
+    position: absolute;
+    background: black;
+    width: 400px;
+    height: 50px;
+    left: 25px;
+    top: 41%;
+    font-size: 30px;
+    color: #f6f6f6;
+    text-align: center;
+}
+
+.fotoku {
+    position: relative;
+    cursor: pointer;
+    width: 700px;
+    transform: translate(0px, -200px);
+}
+
+
+.title {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.Section2 p {
+    font-family: Montserrat semibold;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    padding-top: 70px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: #dadada;
+}
+
+.footertop {
+    width: 100%;
+    padding: 25px 20px 10px;
+    text-align: center;
+}
+
+.socmed {
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Montserrat Medium;   
+}
+
+.sosialicons {
+    margin-top: 20px;
+}
+
+.sosialicons a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sosialicons a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.sosialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.sosialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 20px 0;
+}
+.footernav ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a {
+    font-family: Montserrat ;
+    color: #111;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color:#dadada;
+    padding: 20px;
+    text-align: center;
+    font-family: Montserrat Medium;
+}
+

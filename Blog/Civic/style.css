@@ -1,0 +1,102 @@
+.content {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.title img {
+    width: 600px;
+    border: 6px solid black;
+    border-radius: 30px;
+}
+
+.title {
+    padding-top: 50px;
+    font-family: montserrat semibold;
+}
+
+.desc {
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.sc {
+    font-style: italic;
+}
+
+.col img {
+    width: 250px;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: #dadada;
+}
+
+.footertop {
+    width: 100%;
+    padding: 25px 20px 10px;
+    text-align: center;
+}
+
+.socmed {
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Montserrat Medium;   
+}
+
+.sosialicons {
+    margin-top: 20px;
+}
+
+.sosialicons a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sosialicons a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.sosialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.sosialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 20px 0;
+}
+.footernav ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a {
+    font-family: Montserrat ;
+    color: #111;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color:#dadada;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    font-family: Montserrat Medium;
+}
